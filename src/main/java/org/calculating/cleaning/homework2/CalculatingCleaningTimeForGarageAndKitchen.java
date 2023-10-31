@@ -67,7 +67,7 @@ public class CalculatingCleaningTimeForGarageAndKitchen {
         printTextLikeHeader("Start calculation time for cleaning " +longNameOfRoom_1);
 
         double areaOfRoom_1=calculateAreaOfRoom(widthOfRoom_1,lengthOfRoom_1);
-        double timeForMopByKarcherRoom_1= roundResult(areaOfRoom_1 * timeForMopDefault/2);
+        double timeForMopByKarcherRoom_1= roundResult(areaOfRoom_1 * timeForMopDefault/2.0);
 
         double timeForWindowsRoom_1= numberOfWindowsRoom_1 * timeForWindowsDefault;
 
