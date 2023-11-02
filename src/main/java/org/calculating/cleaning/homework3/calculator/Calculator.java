@@ -10,20 +10,22 @@ public class Calculator {
 
 
     public Calculator() {
-       // this.firstUserNumber = firstUserNumber;
-        //this.secondUserNumber = secondUserNumber;
+        this.firstUserNumber = firstUserNumber;
+        this.secondUserNumber = secondUserNumber;
+        this.doubleUserNumber = doubleUserNumber;
         this.mnozhnyk = GeneralCalculatorConstant.DEFAULT_MNOGNYK;
     }
 
 
     public Calculator(int mnozhnyk) {
-
+        this.firstUserNumber = firstUserNumber;
+        this.secondUserNumber = secondUserNumber;
+        this.doubleUserNumber = doubleUserNumber;
         this.mnozhnyk = mnozhnyk;
     }
 
     public int multiplication(int firstUserNumber, int secondUserNumber) {
-        this.firstUserNumber = firstUserNumber;
-        this.secondUserNumber = secondUserNumber;
+
         int resultRozrahunku = firstUserNumber * secondUserNumber * mnozhnyk;
         String formulaRozrahunku = "( " + firstUserNumber + " * " + secondUserNumber + " ) " + " * " + mnozhnyk;
         PrintToConsole.printResult(formulaRozrahunku, resultRozrahunku);
@@ -32,8 +34,6 @@ public class Calculator {
 
 
     public int sum(int firstUserNumber, int secondUserNumber) {
-        this.firstUserNumber = firstUserNumber;
-        this.secondUserNumber = secondUserNumber;
         int resultRozrahunku = (firstUserNumber + secondUserNumber) * mnozhnyk;
         String formulaRozrahunku = "( " + firstUserNumber + " + " + secondUserNumber + " ) " + " * " + mnozhnyk;
         PrintToConsole.printResult(formulaRozrahunku, resultRozrahunku);
@@ -41,8 +41,7 @@ public class Calculator {
     }
 
     public double subtraction(double firstUserNumber, int secondUserNumber) {
-        this.doubleUserNumber = doubleUserNumber;
-        this.secondUserNumber = secondUserNumber;
+
         double resultRozrahunku = (firstUserNumber - secondUserNumber) * mnozhnyk;
         String formulaRozrahunku = "( " + firstUserNumber + " - " + secondUserNumber + " ) " + " * " + mnozhnyk;
         PrintToConsole.printResult(formulaRozrahunku, resultRozrahunku);
@@ -50,8 +49,6 @@ public class Calculator {
     }
 
     public int division(int firstUserNumber, int secondUserNumber) {
-        this.firstUserNumber = firstUserNumber;
-        this.secondUserNumber = secondUserNumber;
         int resultRozrahunku = (firstUserNumber / secondUserNumber) * mnozhnyk;
         String formulaRozrahunku = "( " + firstUserNumber + " / " + secondUserNumber + " ) " + " * " + mnozhnyk;
         PrintToConsole.printResult(formulaRozrahunku, resultRozrahunku);
