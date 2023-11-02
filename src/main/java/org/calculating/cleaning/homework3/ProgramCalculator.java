@@ -44,7 +44,7 @@ public class ProgramCalculator {
      */
     public static void main(String[] args) {
 
-        Calculator calculatorMnognyk2 = new Calculator(3, 5);
+        Calculator calculatorMnognyk2 = new Calculator();
         int result_1 = calculatorMnognyk2.sum(3, 5);
         double result_2 = calculatorMnognyk2.subtraction(20.0, 5);
         int result_3 = calculatorMnognyk2.multiplication(2, 3);

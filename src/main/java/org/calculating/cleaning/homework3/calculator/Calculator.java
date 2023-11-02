@@ -9,9 +9,9 @@ public class Calculator {
     private double doubleUserNumber;
 
 
-    public Calculator(int firstUserNumber, int secondUserNumber) {
-        this.firstUserNumber = firstUserNumber;
-        this.secondUserNumber = secondUserNumber;
+    public Calculator() {
+       // this.firstUserNumber = firstUserNumber;
+        //this.secondUserNumber = secondUserNumber;
         this.mnozhnyk = GeneralCalculatorConstant.DEFAULT_MNOGNYK;
     }
 
