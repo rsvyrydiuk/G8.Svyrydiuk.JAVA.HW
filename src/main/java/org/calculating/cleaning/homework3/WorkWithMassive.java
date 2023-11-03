@@ -1,5 +1,6 @@
 package org.calculating.cleaning.homework3;
 
+
 public class WorkWithMassive {
     public void analyzeMassive(int[] massive, int varForComparing) {
 

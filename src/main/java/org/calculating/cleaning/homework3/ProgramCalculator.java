@@ -3,10 +3,6 @@ package org.calculating.cleaning.homework3;
 import org.calculating.cleaning.homework3.calculator.Calculator;
 import org.calculating.cleaning.homework3.util.PrintToConsole;
 
-import java.lang.reflect.Array;
-
-import static org.calculating.cleaning.homework3.util.PrintToConsole.printResult;
-
 public class ProgramCalculator {
     /**
      * For homework, create a separate Calculator class and a new homework3 package

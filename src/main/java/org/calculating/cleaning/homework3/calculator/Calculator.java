@@ -29,7 +29,6 @@ public class Calculator {
         return resultRozrahunku;
     }
 
-
     public int sum(int firstUserNumber, int secondUserNumber) {
         int resultRozrahunku = (firstUserNumber + secondUserNumber) * mnozhnyk;
         String formulaRozrahunku = "( " + firstUserNumber + " + " + secondUserNumber + " ) " + " * " + mnozhnyk;
