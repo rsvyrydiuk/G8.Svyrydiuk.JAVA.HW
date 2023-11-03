@@ -84,4 +84,25 @@ public class Room {
         return totalTime;
     }
 
+    public int dividingCleaningWindowByPerson(Integer numberOfPerson) {
+        System.out.println("Number of person is " + numberOfPerson);
+
+        try {
+            int numberOfWindowsForPerson = numberOfWindows / numberOfPerson;
+            System.out.println("Number of windows per person is " + numberOfWindowsForPerson);
+            return numberOfWindowsForPerson;
+        }catch (ArithmeticException e){
+            System.out.println("Error:number of person is 0");
+            return numberOfWindows;
+        }
+
+        catch (Exception e){
+            System.out.println("Error: " + e.getMessage());
+            return numberOfWindows;
+        }finally {
+            System.out.println("Block finally");
+        }
+
+
+    }
 }

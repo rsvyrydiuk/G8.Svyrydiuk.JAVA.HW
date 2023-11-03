@@ -41,6 +41,21 @@ public class CalculatingCleaningTimeForGarageAndKitchen {
      * <p>
      * Tips:
      * - Try to do step by step (as we did on lesson)
+     * Domashka No. 3 part 2
+     *   1. There should be two division methods in the Calculator class
+     *   int division(int a, int b) and double division(double a, double b), if one is missing, it should be added.
+     *   In division methods, handle exceptions where necessary
+     *    - for arithmetic exceptions Display the message "Arithmetic error" and return 88888
+     *    - with other exceptions, display "An error occurred" and return 99999
+     *    Call these methods in the main program with different value options to cover all try catch blocks
+     *
+     *   2. In the main program, declare the array {12, 5, -3, 45, 0, 10}
+     *   3. Develop a method in the WorkWithMassive class
+     *   void analyzezwMassive (int[] massive, int varForComparing)
+     *   in which to display the message:
+     *   - If the value of the array is less than varForComparing - massive[i] + " Value is less than " + varForComparing
+     *   - If equal then massive[i] + " Value is equal " + varForComparing
+     *   - If the value of the array is greater than varForComparing - massive[i] + " Value is more than " + varForComparing
      */
 
 
