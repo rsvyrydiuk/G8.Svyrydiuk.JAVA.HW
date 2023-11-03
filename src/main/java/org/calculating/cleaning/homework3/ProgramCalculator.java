@@ -1,6 +1,9 @@
 package org.calculating.cleaning.homework3;
 
 import org.calculating.cleaning.homework3.calculator.Calculator;
+import org.calculating.cleaning.homework3.util.PrintToConsole;
+
+import java.lang.reflect.Array;
 
 import static org.calculating.cleaning.homework3.util.PrintToConsole.printResult;
 
@@ -65,7 +68,32 @@ public class ProgramCalculator {
         int result_10 = calculatorMnognyk1.sum(3, 5);
         String result_string_11 = calculatorMnognyk1.sum("_Test", "_row");
 
+        double result_12 = calculatorMnognyk2.sum(calculatorMnognyk1.division(calculatorMnognyk1.sum(calculatorMnognyk2.sum(3, 5), calculatorMnognyk5.subtraction(8, 5)), 31.0), 100.0);
 
-        System.out.println("Result of sum results: " + (result_1 + result_2 + result_3 + result_4 + result_5 + result_6 + result_7 + result_8 + result_10));
+        System.out.println("Result of (((3 + 5) * 2 + (8 - 5) * 5) / 31.0 + 100.0) * 2 = " + result_12);
+
+
+        System.out.println("Result of sum results: " + (result_1 + result_2 + result_3 + result_4 + result_5 + result_6 + result_7 + result_8 + result_10 + result_12));
+
+
+        PrintToConsole.printLikeHeader("Part2 exception");
+
+        calculatorMnognyk5.division(0.0, 0.0);
+        Integer test = null;
+        int a = args.length;
+        calculatorMnognyk2.division(5, 0);
+        calculatorMnognyk5.division(a, 5);
+        calculatorMnognyk5.division(test, test);
+
+
+        PrintToConsole.printLikeHeader("Part2 array");
+
+        int[] array = {12, 5, -3, 45, 0, 10};
+        WorkWithMassive workWithMassive = new WorkWithMassive();
+        workWithMassive.analyzeMassive(array, 0);
+
+        workWithMassive.analyzeMassive(array, 5);
+
+
     }
 }
