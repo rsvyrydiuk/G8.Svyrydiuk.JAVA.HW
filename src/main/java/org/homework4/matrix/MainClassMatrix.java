@@ -64,15 +64,25 @@ public class MainClassMatrix {
         //1.4
 
         int[][] matrix_3 = workWithMatrix.creatematrix(3, 3, 4);
-        workWithMatrix.fillingOfTwoDiagonals(matrix_3, 7, false);
+        workWithMatrix.fillingOfTwoDiagonals(matrix_3, 7);
 
         //1.5
 
         workWithMatrix.creatematrix(0, 4, 5);
 
+        workWithMatrix.creatematrix(2, 0, 5);
+
         //1.6
 
-        workWithMatrix.fillingOfLeftDiagonal(workWithMatrix.creatematrix(2, 4, 9), 9, true);
+        int[][] matrix_4 = workWithMatrix.creatematrix(2, 4, 9);
+
+        workWithMatrix.fillingOfLeftDiagonal(matrix_4, 0, true);
+
+
+
+        int[][] matrix_5 = {{1, 1, 1}, {}, {1, 1, 1}};
+
+        workWithMatrix.fillingOfLeftDiagonal(matrix_5, 0, true);
 
 
     }
