@@ -1,5 +1,6 @@
 package org.currency_exchange;
 
+import org.currency_exchange.currencies.Bitcoin;
 import org.currency_exchange.currencies.Dollar;
 import org.currency_exchange.currencies.Som;
 
@@ -20,6 +21,13 @@ public class TempMainClassCurrency {
         som.exchangeCurrencyToGrn(1000);
         System.out.println(som.isFreeConv());
 
+        System.out.println("---------------------------- ");
+
+
+        Bitcoin bitcoin = new Bitcoin();
+        bitcoin.exchangeCurrencyToGrn(10);
+        bitcoin.exchangeGrnToCurrency(100);
+        System.out.println("Is cryptocurrency --- " +bitcoin.isCryptoCurrency());
 
     }
 }
