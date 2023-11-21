@@ -5,7 +5,7 @@ public class Som extends Currency implements IsCurrency {
         super(kursNBU);
     }
     @Override
-    String getCurrencyName() {
+    public String getCurrencyName() {
         return "Som";
     }
     @Override

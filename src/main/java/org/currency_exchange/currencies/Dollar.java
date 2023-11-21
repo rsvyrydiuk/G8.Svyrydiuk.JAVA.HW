@@ -6,7 +6,7 @@ public class Dollar extends Currency implements IsCurrency {
     }
 
     @Override
-    String getCurrencyName() {
+    public String getCurrencyName() {
         return "USD";
     }
 

@@ -6,7 +6,7 @@ public class Bitcoin extends Currency implements isCryptoCurrency{
     }
 
     @Override
-    String getCurrencyName() {
+    public String getCurrencyName() {
         return "BTC";
     }
 
