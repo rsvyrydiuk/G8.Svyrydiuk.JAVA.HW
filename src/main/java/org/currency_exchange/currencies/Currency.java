@@ -24,7 +24,6 @@ public abstract class Currency {
 
     public void setKursNBU(double kursNBU) {
         this.kursNBU = kursNBU;
-
     }
 
     public double getMarga() {

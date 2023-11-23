@@ -4,6 +4,7 @@ import org.currency_exchange.currencies.Dollar;
 import org.currency_exchange.currencies.Euro;
 import org.currency_exchange.currencies.MapOfCurrencies;
 import org.currency_exchange.currencies.Som;
+import org.currency_exchange.menu.ActionsMenu;
 import org.currency_exchange.menu.Menu;
 import org.currency_exchange.menu.MenuCurrency;
 import org.currency_exchange.currencies.Currency;
@@ -33,7 +34,18 @@ public class CurrencyExchange {
                 continue;
             } else if(currencyNumber != EXIT_NUMBER) {
                 workingCurrency=MenuCurrency.setCurrency(currencyNumber);
-                System.out.println("Currency: is " + workingCurrency.getCurrencyName());
+                boolean stayInActionMenu;
+                do {
+                    ActionsMenu.printActionsMenu(workingCurrency);
+                    int subMenuNumber = Menu.getNumberFromConsole();
+                    stayInActionMenu= (subMenuNumber != EXIT_NUMBER);
+
+                    if(stayInActionMenu){
+                    //System.out.println("subMenu = " + subMenuNumber);
+                        ActionsMenu.doActionsWithCurrency(workingCurrency, subMenuNumber);
+                    }
+                } while (stayInActionMenu);
+            //    System.out.println("Currency: is " + workingCurrency.getCurrencyName());
             }
 
         } while (currencyNumber != EXIT_NUMBER);
