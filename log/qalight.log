@@ -1,0 +1,32 @@
+2023-28-11 19:12:11  INFO [MainClassLog] : Info from class
+2023-28-11 19:12:11  ERROR [MainClassLog] : Error info
+2023-28-11 19:13:35  INFO [MainClassLog] : Info from class
+2023-28-11 19:13:35  ERROR [MainClassLog] : Error info
+2023-28-11 19:23:50  INFO [MainClassLog] : Info from class
+2023-28-11 19:23:50  ERROR [MainClassLog] : Error info
+2023-28-11 19:24:27  INFO [MainClassLog] : Info from class
+2023-28-11 19:24:27  ERROR [MainClassLog] : Error info
+2023-28-11 19:31:47  INFO [MainClassLog] : Info from class
+2023-28-11 19:31:47  DEBUG [MainClassLog] : Debug info
+2023-28-11 19:31:47  ERROR [MainClassLog] : Error info
+2023-28-11 19:34:08  INFO [MainClassLog] : Info from class
+2023-28-11 19:34:08  ERROR [MainClassLog] : Error info
+2023-28-11 20:00:05  INFO [MainClassLog] : Info from class
+2023-28-11 20:00:05  ERROR [MainClassLog] : Error info
+2023-28-11 20:00:05  INFO [MainClassLog] : 415.145000001
+2023-28-11 20:01:51  INFO [MainClassLog] : Info from class
+2023-28-11 20:01:51  ERROR [MainClassLog] : Error info
+2023-28-11 20:01:51  INFO [MainClassLog] : 415.145000001
+2023-28-11 20:01:51  INFO [MainClassLog] : 415.15
+2023-28-11 20:03:38  INFO [MainClassLog] : Info from class
+2023-28-11 20:03:38  ERROR [MainClassLog] : Error info
+2023-28-11 20:03:38  INFO [MainClassLog] : 415.145000001
+2023-28-11 20:03:38  INFO [MainClassLog] : 415.15
+2023-28-11 20:03:38  INFO [MainClassLog] : 415.15
+2023-28-11 20:03:38  INFO [MainClassLog] : 415.15
+2023-28-11 20:04:49  INFO [MainClassLog] : Info from class
+2023-28-11 20:04:49  ERROR [MainClassLog] : Error info
+2023-28-11 20:04:49  INFO [MainClassLog] : 415.145
+2023-28-11 20:04:49  INFO [MainClassLog] : 415.15
+2023-28-11 20:04:49  INFO [MainClassLog] : 415.15
+2023-28-11 20:04:49  INFO [MainClassLog] : 415.14
